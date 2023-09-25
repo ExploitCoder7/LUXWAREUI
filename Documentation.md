@@ -13,3 +13,12 @@ local Luxt = Luxtl.CreateWindow("Tutorial", 6105620301)
 First Arg Is The Name
 Second Arg Is The Image
 ```
+## Creating Tabs
+```
+local mainTab = Luxt:Tab("Main", 6087485864)
+```
+First Arg Is The Local Tab
+Second Is Tab Name
+Third Is Tab Image
+```
+## Creating Sections
