@@ -9,7 +9,7 @@ local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/
 ```lua
 local Luxt = Luxtl.CreateWindow("Tutorial", Image)
 ```
-## Creating Tabs
+# Creating Tabs
 ```lua
 local mainTab = Luxt:Tab("Main", Image)
 ```
