@@ -1,6 +1,6 @@
 # LuxWare User Interface
-Unofficial (kinda idk because im the first to release a doc) document
-
+Unofficial (kinda idk because im the first to release a doc) document on this
+EveryThing Works For Mobile Btw Js Not The Slider
 # Getting The Loadstring
 ```lua
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
