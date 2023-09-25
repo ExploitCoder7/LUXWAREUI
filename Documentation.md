@@ -1,5 +1,5 @@
 # LuxWare User Interface
-Unofficial (kinda idk because im the first to release a doc) document on this
+Unofficial (kinda idk because im the first to release a doc) document on this.
 EveryThing Works For Mobile Btw Js Not The Slider
 # Getting The Loadstring
 ```lua
