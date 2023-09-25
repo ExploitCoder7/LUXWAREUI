@@ -7,11 +7,7 @@ local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/
 ```
 # Creating a Window
 ```lua
-local Luxt = Luxtl.CreateWindow("Tutorial", 6105620301)
-```
-```
-First Arg Is The Name
-Second Arg Is The Image
+local Luxt = Luxtl.CreateWindow("Tutorial", Image)
 ```
 ## Creating Tabs
 ```lua
