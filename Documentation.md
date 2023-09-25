@@ -41,9 +41,9 @@ end)
 ```
 ### Creating Sliders
 Sadly Buggy On Mobile
-```
-section:Slider("WalkSpeed", 0 -- Lowest Number And Default, 1000 -- Max Number, function(Value)
-    Print'Value'
+```lua
+section:Slider("Slider", 0 -- Lowest Number And Default, 1000 -- Max Number, function(Value)
+    print(Value)
 end)
 ```
 ### Creating DropDowns
