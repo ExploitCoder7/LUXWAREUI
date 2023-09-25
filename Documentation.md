@@ -13,6 +13,7 @@ local Luxt = Luxtl.CreateWindow("Tutorial", Image)
 ```lua
 local mainTab = Luxt:Tab("Main", Image)
 ```
+# Elements
 ## Creating Sections
 ```lua
 local section = mainTab:Section("Section")
