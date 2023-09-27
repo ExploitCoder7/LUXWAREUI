@@ -13,41 +13,41 @@ local Luxt = Luxtl.CreateWindow("Tutorial", Image)
 ```lua
 local mainTab = Luxt:Tab("Main", Image)
 ```
-# Elements
-## Creating Sections
+# Creating Sections
 ```lua
 local section = mainTab:Section("Section")
 ```
+# Elements
 ## Creating Labels
 ```lua
 section:Label("Label")
 ```
-### Creating Buttons
+## Creating Buttons
 ```lua
 section:Button("Button", function()
     print("Clicked!")
 end)
 ```
-### Creating Toggles
+## Creating Toggles
 ```lua
 section:Toggle("Toggle", function(Value)
     print(Value)
 end)
 ```
-### Creating TextBoxes
+## Creating TextBoxes
 ```lua
 section:TextBox("TextBox", "PlaceHolder", function(Value)
     print(Value)
 end)
 ```
-### Creating Sliders
+## Creating Sliders
 Sadly Buggy On Mobile
 ```lua
 section:Slider("Slider", 0 -- Lowest Number And Default, 1000 -- Max Number, function(Value)
     print(Value)
 end)
 ```
-### Creating DropDowns
+## Creating DropDowns
 ```lua
 section:DropDown("DropDown", {"Option 1", "Option 2", "Option 3"}, function(Value) 
     print(Value)
